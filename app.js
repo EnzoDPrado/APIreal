@@ -2290,7 +2290,7 @@ app.delete('/v1/bebidaPromocao/:id', cors(), jsonParser, async function(request,
 });
 
 app.get('/', (req, res) => {
-    req.json({
+    res.json({
       hello: 'hi!',
       });
   });
